@@ -1,0 +1,60 @@
+a
+    display inline-block
+    padding 1em
+
+td
+    &.details-control
+        background url('https://datatables.net/examples/resources/details_open.png')
+    no-repeat center center
+        cursor pointer
+
+tr
+    &.shown
+        td
+            &.details-control
+                background url('https://datatables.net/examples/resources/details_close.png')
+    no-repeat center center
+
+ul.minornav,
+ul#hpicon_container,
+ul#hpicon_container2
+    margin 0 0 5px 0
+    padding 0
+
+li
+    display list-item
+    text-align -webkit-match-parent
+
+h2
+    a
+        &.linkheading
+            color #fff !important
+            font-family 'sorts italic', georgia, serif
+            font-size 1.2em
+            line-height 1.2em
+            text-decoration none
+            text-transform none
+
+table
+    thead
+        th
+            background-color #ffc72c
+            color #041e42
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover
+    background-color #041e42 !important
+    color #ffffff !important
+
+.pagination > li > a,
+.pagination > li > span
+    border solid 1px #041e42 !important
+    color #041e42 !important
+
+th
+    border-bottom solid 3px #041e42 !important
+
